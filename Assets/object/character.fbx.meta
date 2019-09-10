@@ -1,0 +1,3032 @@
+fileFormatVersion: 2
+guid: ad7ab05c6aba05042a95b83d010ba973
+timeCreated: 1503990315
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: char_geo
+    100004: //RootNode
+    100006: chest
+    100008: djaw
+    100010: djawend
+    100012: djawteeth
+    100014: endhead
+    100016: head
+    100018: joints_vtrl
+    100020: left_ankle
+    100022: left_e
+    100024: left_eaar1
+    100026: left_eaar2
+    100028: left_enshl
+    100030: left_eye
+    100032: left_foot
+    100034: left_forarm
+    100036: left_knee
+    100038: left_Leg
+    100040: left_mid1
+    100042: left_mid2
+    100044: left_mid3
+    100046: left_mid3_end
+    100048: left_point1
+    100050: left_point2
+    100052: left_point3
+    100054: left_point3_end
+    100056: left_sh
+    100058: left_te
+    100060: left_thumb1
+    100062: left_thumb2
+    100064: left_thumb3
+    100066: left_thumb3_end
+    100068: left_tiny1
+    100070: left_tiny2
+    100072: left_tiny3
+    100074: left_tiny3end
+    100076: left_toe
+    100078: left_uparm
+    100080: left_wrist
+    100082: neck1
+    100084: neck2
+    100086: right_ankle
+    100088: right_e
+    100090: right_eaar3
+    100092: right_enshl
+    100094: right_eye
+    100096: right_foot
+    100098: right_forarm
+    100100: right_knee
+    100102: right_Leg
+    100104: right_mid1
+    100106: right_mid2
+    100108: right_mid3
+    100110: right_mid3_end
+    100112: right_point1
+    100114: right_point2
+    100116: right_point3
+    100118: right_point3_end
+    100120: right_sh
+    100122: right_te
+    100124: right_thumb1
+    100126: right_thumb2
+    100128: right_thumb3
+    100130: right_thumb3_end
+    100132: right_tiny1
+    100134: right_tiny2
+    100136: right_tiny3
+    100138: right_tiny3end
+    100140: right_toe
+    100142: right_uparm
+    100144: right_wrist
+    100146: rught_eaar2
+    100148: spin2
+    100150: spin3
+    100152: tail1
+    100154: tail2
+    100156: tail3
+    100158: tail4
+    100160: tail5
+    100162: upjaw1
+    100164: upjawEnd
+    400000: Base
+    400002: char_geo
+    400004: //RootNode
+    400006: chest
+    400008: djaw
+    400010: djawend
+    400012: djawteeth
+    400014: endhead
+    400016: head
+    400018: joints_vtrl
+    400020: left_ankle
+    400022: left_e
+    400024: left_eaar1
+    400026: left_eaar2
+    400028: left_enshl
+    400030: left_eye
+    400032: left_foot
+    400034: left_forarm
+    400036: left_knee
+    400038: left_Leg
+    400040: left_mid1
+    400042: left_mid2
+    400044: left_mid3
+    400046: left_mid3_end
+    400048: left_point1
+    400050: left_point2
+    400052: left_point3
+    400054: left_point3_end
+    400056: left_sh
+    400058: left_te
+    400060: left_thumb1
+    400062: left_thumb2
+    400064: left_thumb3
+    400066: left_thumb3_end
+    400068: left_tiny1
+    400070: left_tiny2
+    400072: left_tiny3
+    400074: left_tiny3end
+    400076: left_toe
+    400078: left_uparm
+    400080: left_wrist
+    400082: neck1
+    400084: neck2
+    400086: right_ankle
+    400088: right_e
+    400090: right_eaar3
+    400092: right_enshl
+    400094: right_eye
+    400096: right_foot
+    400098: right_forarm
+    400100: right_knee
+    400102: right_Leg
+    400104: right_mid1
+    400106: right_mid2
+    400108: right_mid3
+    400110: right_mid3_end
+    400112: right_point1
+    400114: right_point2
+    400116: right_point3
+    400118: right_point3_end
+    400120: right_sh
+    400122: right_te
+    400124: right_thumb1
+    400126: right_thumb2
+    400128: right_thumb3
+    400130: right_thumb3_end
+    400132: right_tiny1
+    400134: right_tiny2
+    400136: right_tiny3
+    400138: right_tiny3end
+    400140: right_toe
+    400142: right_uparm
+    400144: right_wrist
+    400146: rught_eaar2
+    400148: spin2
+    400150: spin3
+    400152: tail1
+    400154: tail2
+    400156: tail3
+    400158: tail4
+    400160: tail5
+    400162: upjaw1
+    400164: upjawEnd
+    4300000: char_geo
+    7400000: run
+    7400002: jog
+    7400004: Idle
+    7400006: walk
+    7400008: Jump
+    7400010: BackWard
+    7400012: FallA
+    7400014: JumpStart
+    7400016: JumpPause
+    7400018: JumpEnd
+    9500000: //RootNode
+    13700000: char_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'left_Leg' has translation animation that will
+      be discarded.\n\t'left_knee' has translation animation that will be discarded.\n\t'left_ankle'
+      has translation animation that will be discarded.\n\t'left_foot' has translation
+      animation that will be discarded.\n\t'left_foot' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'right_Leg' has translation
+      animation that will be discarded.\n\t'right_foot' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'neck2' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'endhead' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'right_forarm'
+      has translation animation that will be discarded.\n\t'right_wrist' has translation
+      animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 241
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 3
+          postInfinity: 3
+          rotationOrder: 0
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jog
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 92
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BackWard
+      takeName: Take 001
+      firstFrame: 182
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FallA
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpStart
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpPause
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: JumpEnd
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: char_geo
+        weight: 0
+      - path: joints_vtrl
+        weight: 1
+      - path: joints_vtrl/Base
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: joints_vtrl/Base/left_Leg/left_knee/left_ankle/left_foot/left_toe/left_te
+        weight: 0
+      - path: joints_vtrl/Base/right_Leg
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe
+        weight: 1
+      - path: joints_vtrl/Base/right_Leg/right_knee/right_ankle/right_foot/right_toe/right_te
+        weight: 0
+      - path: joints_vtrl/Base/spin2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_mid1/left_mid2/left_mid3/left_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_point1/left_point2/left_point3/left_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_thumb1/left_thumb2/left_thumb3/left_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/left_sh/left_enshl/left_uparm/left_forarm/left_wrist/left_tiny1/left_tiny2/left_tiny3/left_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/djaw/djawend/djawteeth
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eaar1/left_eaar2/left_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/left_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eaar3/rught_eaar2/right_e
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/right_eye
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/neck1/neck2/head/endhead/upjaw1/upjawEnd
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_mid1/right_mid2/right_mid3/right_mid3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_point1/right_point2/right_point3/right_point3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_thumb1/right_thumb2/right_thumb3/right_thumb3_end
+        weight: 0
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3
+        weight: 1
+      - path: joints_vtrl/Base/spin2/spin3/chest/right_sh/right_enshl/right_uparm/right_forarm/right_wrist/right_tiny1/right_tiny2/right_tiny3/right_tiny3end
+        weight: 0
+      - path: joints_vtrl/Base/tail1
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4
+        weight: 0
+      - path: joints_vtrl/Base/tail1/tail2/tail3/tail4/tail5
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Base
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_Leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_Leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spin2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spin3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_sh
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_sh
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_uparm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_uparm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_forarm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_forarm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_toe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_toe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upjaw1
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_thumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_thumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_thumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_point1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_point2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_point3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_mid1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_mid2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_mid3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_tiny1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_tiny2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: left_tiny3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_thumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_thumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_thumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_point1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_point2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_point3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_mid1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_mid2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_mid3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_tiny1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_tiny2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: right_tiny3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: character(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_geo
+      parentName: character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joints_vtrl
+      parentName: character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base
+      parentName: joints_vtrl
+      position: {x: 3.9543564e-18, y: 0.5214988, z: -0.029673629}
+      rotation: {x: -0.009397849, y: -0.06255873, z: 0.14825986, w: 0.98692304}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: left_Leg
+      parentName: Base
+      position: {x: -0.10565624, y: 1.4210854e-16, z: 0}
+      rotation: {x: 0.5477029, y: 0.51089585, z: 0.32157785, w: 0.5793053}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: left_knee
+      parentName: left_Leg
+      position: {x: -0.1872574, y: 1.7763568e-17, z: 2.0298435e-17}
+      rotation: {x: -0.93669075, y: -0.35011065, z: -0.0052750413, w: 0.002296001}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: left_ankle
+      parentName: left_knee
+      position: {x: -0.17789994, y: -8.881784e-18, z: -1.8507341e-14}
+      rotation: {x: 0.8929923, y: 0.4498974, z: 0.012511281, w: 0.0006547779}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.9999999}
+    - name: left_foot
+      parentName: left_ankle
+      position: {x: -0.16164654, y: -0.004892359, z: 4.1936486e-14}
+      rotation: {x: -0.0000000035510008, y: -0.00000012609269, z: -0.4641299, w: 0.8857671}
+      scale: {x: 1.0000004, y: 1, z: 1.0000004}
+    - name: left_toe
+      parentName: left_foot
+      position: {x: -0.07438565, y: 0.010905202, z: 2.1892873e-14}
+      rotation: {x: -0.000000014467964, y: -0.0000000026286315, z: -0.07271913, w: 0.9973525}
+      scale: {x: 1.000001, y: 0.99999994, z: 1.000001}
+    - name: left_te
+      parentName: left_toe
+      position: {x: -0.041778956, y: 1.4626443e-17, z: 1.20057095e-14}
+      rotation: {x: 0.00000007353325, y: -0.70710677, z: 0.000000105280705, w: 0.70710677}
+      scale: {x: 0.99999976, y: 1, z: 0.9999997}
+    - name: right_Leg
+      parentName: Base
+      position: {x: 0.084335886, y: -0.058399867, z: -0.025300251}
+      rotation: {x: 0.52008414, y: -0.54292905, z: 0.57092625, w: -0.3298239}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: right_knee
+      parentName: right_Leg
+      position: {x: 0.1872574, y: 0, z: 0.00000007486338}
+      rotation: {x: 0.9366908, y: 0.35011047, z: 0.005275101, w: -0.0022958668}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000011}
+    - name: right_ankle
+      parentName: right_knee
+      position: {x: 0.17789994, y: 0, z: 1.85274e-14}
+      rotation: {x: -0.89299244, y: -0.44989735, z: -0.012511113, w: -0.00065460085}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: right_foot
+      parentName: right_ankle
+      position: {x: 0.16164654, y: 0.0049000005, z: 1.02961355e-10}
+      rotation: {x: 0.00000003948204, y: 0.000000039671555, z: -0.46413004, w: 0.88576716}
+      scale: {x: 1.0000007, y: 1.0000018, z: 1.0000004}
+    - name: right_toe
+      parentName: right_foot
+      position: {x: 0.0743856, y: -0.010905193, z: -0.0000000011554177}
+      rotation: {x: -0.0000000058313807, y: -0.0000000130937945, z: -0.07271897, w: 0.9973525}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000004}
+    - name: right_te
+      parentName: right_toe
+      position: {x: 0.041778997, y: -2.6645354e-17, z: -6.4208205e-10}
+      rotation: {x: 0.00000011959648, y: -0.70710677, z: 0.000000044316277, w: 0.7071069}
+      scale: {x: 1, y: 1.0000002, z: 1.0000007}
+    - name: tail1
+      parentName: Base
+      position: {x: -0.015601828, y: -0.009173001, z: -0.09598793}
+      rotation: {x: -0.3450634, y: -0.56373507, z: 0.18642217, w: 0.7268981}
+      scale: {x: 0.99999976, y: 0.9999999, z: 1}
+    - name: tail2
+      parentName: tail1
+      position: {x: -0.09360424, y: -0.0051852427, z: -1.700781e-17}
+      rotation: {x: -0.000000029802322, y: -0.000000059604645, z: -0.057265177, w: 0.998359}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: tail3
+      parentName: tail2
+      position: {x: -0.14612518, y: 0.0022079847, z: 2.2817944e-17}
+      rotation: {x: 0.000000027714753, y: -0.00000005573196, z: -0.08741704, w: 0.99617183}
+      scale: {x: 1.0000002, y: 1, z: 1.0000006}
+    - name: tail4
+      parentName: tail3
+      position: {x: -0.12777588, y: 0.015629482, z: 6.1974067e-18}
+      rotation: {x: -0.00000001998694, y: -0.0000000047019877, z: -0.17159979, w: 0.9851667}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: tail5
+      parentName: tail4
+      position: {x: -0.13728595, y: 0.0038298394, z: -8.777944e-18}
+      rotation: {x: 0.058539726, y: 0.70467955, z: -0.058539815, w: 0.7046793}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.99999994}
+    - name: spin2
+      parentName: Base
+      position: {x: 0.043551218, y: 0.14121312, z: 0.0010839573}
+      rotation: {x: -0.44591203, y: 0.60356975, z: -0.5316132, w: 0.39275116}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: spin3
+      parentName: spin2
+      position: {x: -0.14994569, y: 4.3552489e-16, z: -1.4874028e-16}
+      rotation: {x: -0, y: -0, z: -0.000000029802322, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: chest
+      parentName: spin3
+      position: {x: -0.1065735, y: -1.4210854e-16, z: -6.041426e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: neck1
+      parentName: chest
+      position: {x: -0.21466017, y: -0.024903988, z: -4.5535083e-16}
+      rotation: {x: -0, y: -0, z: 0.43483976, w: 0.9005078}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000002}
+    - name: neck2
+      parentName: neck1
+      position: {x: -0.0697603, y: 0.029957794, z: -8.160342e-16}
+      rotation: {x: -4.5937742e-10, y: 0.00000003331684, z: -0.17775096, w: 0.9840755}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.99999976}
+    - name: head
+      parentName: neck2
+      position: {x: -0.06902007, y: 0.011430608, z: -4.6607067e-16}
+      rotation: {x: -0.000000021612593, y: 0.000000010213409, z: -0.22198097, w: 0.97505105}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: endhead
+      parentName: head
+      position: {x: -0.10014708, y: -0.029326478, z: -7.551527e-16}
+      rotation: {x: 0.000000011398786, y: -0.000000051898315, z: 0.95927846, w: 0.28246212}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: djaw
+      parentName: endhead
+      position: {x: -0.049260926, y: -0.012607575, z: -1.4938231e-16}
+      rotation: {x: 6.1709926e-10, y: 1.4345769e-10, z: 0.021257162, w: 0.99977404}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000007}
+    - name: djawend
+      parentName: djaw
+      position: {x: -0.09351996, y: -0.00050316297, z: -7.8211396e-16}
+      rotation: {x: 0.000000019021947, y: 0.00000012239745, z: -0.48941496, w: 0.87205106}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000002}
+    - name: djawteeth
+      parentName: djawend
+      position: {x: -0.11616252, y: 0.014278524, z: -2.2014725e-15}
+      rotation: {x: -0.03971313, y: -0.7059908, z: -0.039713256, w: 0.7059907}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000002}
+    - name: left_eye
+      parentName: endhead
+      position: {x: -0.042726573, y: 0.06437259, z: -0.062238343}
+      rotation: {x: -0.36739442, y: -0.60416996, z: -0.36739445, w: 0.60416996}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: right_eye
+      parentName: endhead
+      position: {x: -0.042726886, y: 0.06437254, z: 0.062238406}
+      rotation: {x: 0.60416996, y: -0.36739445, z: 0.60416996, w: 0.36739445}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: upjaw1
+      parentName: endhead
+      position: {x: -0.0643173, y: 0.023518631, z: -9.303801e-16}
+      rotation: {x: 0.000000016883758, y: 0.00000012320126, z: -0.47076702, w: 0.8822576}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1}
+    - name: upjawEnd
+      parentName: upjaw1
+      position: {x: -0.117773995, y: -1.110223e-16, z: -2.2063593e-15}
+      rotation: {x: -0.03971319, y: -0.7059908, z: -0.039713286, w: 0.7059907}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: right_eaar3
+      parentName: endhead
+      position: {x: 0.02569509, y: 0.00081086083, z: 0.089627415}
+      rotation: {x: 0.083468445, y: 0.92954475, z: -0.30281344, w: 0.19308981}
+      scale: {x: 1.000001, y: 1.0000002, z: 1.0000013}
+    - name: rught_eaar2
+      parentName: right_eaar3
+      position: {x: -0.07295518, y: -1.5543122e-17, z: 1.3322677e-17}
+      rotation: {x: 0.017510144, y: -0.014648572, z: 0.03942778, w: 0.9989616}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999992}
+    - name: right_e
+      parentName: rught_eaar2
+      position: {x: -0.09176508, y: 8.8817837e-17, z: -4.8849813e-17}
+      rotation: {x: 0.3740915, y: -0.84369403, z: -0.15606125, w: -0.35196713}
+      scale: {x: 1.0000007, y: 0.99999976, z: 0.99999994}
+    - name: left_eaar1
+      parentName: endhead
+      position: {x: 0.025694778, y: 0.0008107274, z: -0.0896274}
+      rotation: {x: -0.92954475, y: 0.08346845, z: 0.19308987, w: 0.3028134}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000005}
+    - name: left_eaar2
+      parentName: left_eaar1
+      position: {x: 0.07295605, y: -0.0000005153838, z: -0.00000003727687}
+      rotation: {x: 0.017510084, y: -0.014648434, z: 0.039427895, w: 0.9989616}
+      scale: {x: 1.0000018, y: 1.0000013, z: 1.0000001}
+    - name: left_e
+      parentName: left_eaar2
+      position: {x: 0.09176462, y: 0.00000034777, z: 0.00000008304331}
+      rotation: {x: 0.37409136, y: -0.84369403, z: -0.15606126, w: -0.35196725}
+      scale: {x: 1.0000002, y: 0.99999905, z: 0.9999993}
+    - name: left_sh
+      parentName: chest
+      position: {x: -0.15885071, y: -0.09899946, z: -0.035721164}
+      rotation: {x: 0.6132674, y: -0.5322778, z: 0.38820925, w: 0.4357488}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: left_enshl
+      parentName: left_sh
+      position: {x: -0.13189062, y: -0.0066707693, z: 0.0009765673}
+      rotation: {x: 0.008753329, y: 0.027807396, z: 0.4477252, w: 0.89369583}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: left_uparm
+      parentName: left_enshl
+      position: {x: -0.008213933, y: 0.0022717884, z: -0.0008403659}
+      rotation: {x: 0.03271623, y: 0.12834077, z: -0.36858496, w: 0.9201106}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: left_forarm
+      parentName: left_uparm
+      position: {x: -0.25203854, y: -0.002781865, z: -0.00013461709}
+      rotation: {x: 0.28557196, y: 0.019412046, z: -0.025186535, w: 0.95782954}
+      scale: {x: 1, y: 0.9999999, z: 1.0000004}
+    - name: left_wrist
+      parentName: left_forarm
+      position: {x: -0.19415641, y: 1.9539925e-16, z: -1.7763568e-17}
+      rotation: {x: 0.1485445, y: 0.4405134, z: -0.12485126, w: 0.87652427}
+      scale: {x: 0.9999996, y: 1.0000001, z: 0.9999999}
+    - name: left_thumb1
+      parentName: left_wrist
+      position: {x: -0.046157096, y: 7.882583e-17, z: -3.2196467e-17}
+      rotation: {x: 0.012027545, y: -0.081913166, z: -0.022749437, w: 0.99630725}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: left_thumb2
+      parentName: left_thumb1
+      position: {x: -0.051674817, y: 1.3322677e-17, z: 1.9151347e-17}
+      rotation: {x: 0.10809766, y: -0.045027353, z: 0.011078798, w: 0.9930583}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1.0000001}
+    - name: left_thumb3
+      parentName: left_thumb2
+      position: {x: -0.042876102, y: -0.0017669917, z: 0.004398491}
+      rotation: {x: -0.22915657, y: -0.054413557, z: -0.007822473, w: 0.971836}
+      scale: {x: 1.0000005, y: 1, z: 0.99999994}
+    - name: left_thumb3_end
+      parentName: left_thumb3
+      position: {x: -0.03607071, y: -0.006264974, z: 0.005024472}
+      rotation: {x: -0.2640124, y: -0.42705965, z: -0.4547575, w: 0.73560387}
+      scale: {x: 1.0000002, y: 1, z: 1.0000004}
+    - name: left_point1
+      parentName: left_wrist
+      position: {x: -0.055744275, y: -0.0076280767, z: -0.027471622}
+      rotation: {x: -0.12684919, y: -0.38342482, z: 0.12380698, w: 0.9064031}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: left_point2
+      parentName: left_point1
+      position: {x: -0.062974505, y: -0.008775829, z: 0.0035946176}
+      rotation: {x: 0.1288008, y: 0.07304185, z: 0.11742692, w: 0.9819808}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: left_point3
+      parentName: left_point2
+      position: {x: -0.05811181, y: 0.0036857335, z: -0.0012281564}
+      rotation: {x: 0.2597121, y: -0.017922273, z: -0.07485131, w: 0.962614}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: left_point3_end
+      parentName: left_point3
+      position: {x: -0.04106548, y: -0.0041183825, z: 0.0033497289}
+      rotation: {x: -0.06583895, y: -0.11098093, z: -0.34160623, w: 0.9309424}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000001}
+    - name: left_mid1
+      parentName: left_wrist
+      position: {x: -0.03731056, y: -0.021765444, z: -0.03754256}
+      rotation: {x: -0.036504265, y: -0.4249044, z: 0.19920357, w: 0.8822934}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+    - name: left_mid2
+      parentName: left_mid1
+      position: {x: -0.06573214, y: -0.010054431, z: 0.008960201}
+      rotation: {x: 0.11192217, y: 0.017163388, z: 0.091421045, w: 0.98935384}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: left_mid3
+      parentName: left_mid2
+      position: {x: -0.057915896, y: 0.0013840696, z: 0.009909688}
+      rotation: {x: 0.28963813, y: 0.033140533, z: 0.0682477, w: 0.95412457}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: left_mid3_end
+      parentName: left_mid3
+      position: {x: -0.044980414, y: 0.010903005, z: 0.0042460174}
+      rotation: {x: -0.04065239, y: -0.054908082, z: -0.43714553, w: 0.89679223}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: left_tiny1
+      parentName: left_wrist
+      position: {x: -0.00864098, y: -0.04481226, z: -0.044137716}
+      rotation: {x: -0.12566261, y: -0.4467957, z: 0.22976671, w: 0.8554471}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: left_tiny2
+      parentName: left_tiny1
+      position: {x: -0.076245114, y: -0.0014486202, z: 0.00914305}
+      rotation: {x: 0.12949917, y: -0.029395394, z: -0.020807872, w: 0.99092525}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: left_tiny3
+      parentName: left_tiny2
+      position: {x: -0.051697258, y: -0.0020861335, z: 0.013246933}
+      rotation: {x: 0.44703406, y: 0.11980093, z: 0.04557621, w: 0.885286}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
+    - name: left_tiny3end
+      parentName: left_tiny3
+      position: {x: -0.032330684, y: 0.0059339176, z: -0.00044808566}
+      rotation: {x: -0.088264056, y: -0.124982625, z: -0.41298226, w: 0.89779425}
+      scale: {x: 1.0000006, y: 0.9999997, z: 1.0000002}
+    - name: right_sh
+      parentName: chest
+      position: {x: -0.15884975, y: -0.09899953, z: 0.035721198}
+      rotation: {x: 0.5322784, y: 0.61326677, z: 0.4357477, w: -0.38821062}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: right_enshl
+      parentName: right_sh
+      position: {x: 0.13189065, y: 0.006670093, z: -0.0009764408}
+      rotation: {x: 0.008753358, y: 0.02780747, z: 0.4477253, w: 0.89369583}
+      scale: {x: 1.0000002, y: 1.0000012, z: 1.000001}
+    - name: right_uparm
+      parentName: right_enshl
+      position: {x: 0.008213663, y: -0.0022722934, z: 0.00084027986}
+      rotation: {x: 0.034659285, y: 0.12763064, z: -0.357991, w: 0.9243114}
+      scale: {x: 0.9999997, y: 1.0000007, z: 1.0000013}
+    - name: right_forarm
+      parentName: right_uparm
+      position: {x: 0.25204, y: -0.00278, z: 0.00013463075}
+      rotation: {x: 0.28114277, y: 0.016640162, z: -0.035740748, w: 0.9588558}
+      scale: {x: 1, y: 1.000001, z: 1.0000007}
+    - name: right_wrist
+      parentName: right_forarm
+      position: {x: 0.19416, y: 0, z: -0.00000015024816}
+      rotation: {x: 0.14854445, y: 0.44051355, z: -0.12485125, w: 0.8765241}
+      scale: {x: 0.99999964, y: 1.0000019, z: 1.0000006}
+    - name: right_thumb1
+      parentName: right_wrist
+      position: {x: 0.046157245, y: 0.0000004350131, z: -0.00000091436334}
+      rotation: {x: 0.011768789, y: -0.079850115, z: -0.02039929, w: 0.9965286}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: right_thumb2
+      parentName: right_thumb1
+      position: {x: 0.051674623, y: -0.00000043750575, z: 0.0000017747013}
+      rotation: {x: 0.10809784, y: -0.045053177, z: 0.011077373, w: 0.99305713}
+      scale: {x: 0.9999998, y: 1.0000014, z: 0.9999999}
+    - name: right_thumb3
+      parentName: right_thumb2
+      position: {x: 0.042875655, y: 0.0017664317, z: -0.0043999227}
+      rotation: {x: -0.22916019, y: -0.054378413, z: -0.007826087, w: 0.97183716}
+      scale: {x: 1.000001, y: 1, z: 1.0000012}
+    - name: right_thumb3_end
+      parentName: right_thumb3
+      position: {x: 0.03607095, y: 0.0062642586, z: -0.005023124}
+      rotation: {x: -0.26401243, y: -0.4270596, z: -0.4547575, w: 0.7356039}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000005}
+    - name: right_point1
+      parentName: right_wrist
+      position: {x: 0.055744182, y: 0.007627155, z: 0.027471298}
+      rotation: {x: -0.12684909, y: -0.38342494, z: 0.12380703, w: 0.906403}
+      scale: {x: 1, y: 0.9999984, z: 1}
+    - name: right_point2
+      parentName: right_point1
+      position: {x: 0.06297546, y: 0.008776433, z: -0.003593978}
+      rotation: {x: 0.12880157, y: 0.0730307, z: 0.117429554, w: 0.98198116}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000005}
+    - name: right_point3
+      parentName: right_point2
+      position: {x: 0.05811103, y: -0.003686062, z: 0.0012273751}
+      rotation: {x: 0.25971138, y: -0.01790433, z: -0.0748553, w: 0.9626143}
+      scale: {x: 1.0000004, y: 1.0000011, z: 1.000001}
+    - name: right_point3_end
+      parentName: right_point3
+      position: {x: 0.041065343, y: 0.0041188127, z: -0.0033490192}
+      rotation: {x: -0.065838985, y: -0.1109809, z: -0.3416063, w: 0.93094236}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000001}
+    - name: right_mid1
+      parentName: right_wrist
+      position: {x: 0.03731053, y: 0.02176524, z: 0.037541606}
+      rotation: {x: -0.036504205, y: -0.42490456, z: 0.19920373, w: 0.88229334}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000005}
+    - name: right_mid2
+      parentName: right_mid1
+      position: {x: 0.06573235, y: 0.010053942, z: -0.008959677}
+      rotation: {x: 0.111922055, y: 0.01715505, z: 0.09141417, w: 0.98935467}
+      scale: {x: 1.0000008, y: 1.0000018, z: 1.0000014}
+    - name: right_mid3
+      parentName: right_mid2
+      position: {x: 0.057916056, y: -0.0013838608, z: -0.009909977}
+      rotation: {x: -0.28963745, y: -0.033135865, z: -0.06825367, w: -0.95412457}
+      scale: {x: 0.9999995, y: 1.0000007, z: 1.0000001}
+    - name: right_mid3_end
+      parentName: right_mid3
+      position: {x: 0.04497969, y: -0.010903313, z: -0.0042461916}
+      rotation: {x: 0.04065214, y: 0.054908033, z: 0.43714556, w: -0.8967923}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000004}
+    - name: right_tiny1
+      parentName: right_wrist
+      position: {x: 0.008640834, y: 0.044811547, z: 0.044137135}
+      rotation: {x: -0.12566288, y: -0.4467946, z: 0.22976209, w: 0.85544896}
+      scale: {x: 1.0000007, y: 0.9999996, z: 1.0000011}
+    - name: right_tiny2
+      parentName: right_tiny1
+      position: {x: 0.07624584, y: 0.0014495153, z: -0.009143612}
+      rotation: {x: 0.12950055, y: -0.029388897, z: -0.020801278, w: 0.99092543}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1}
+    - name: right_tiny3
+      parentName: right_tiny2
+      position: {x: 0.05169687, y: 0.0020859805, z: -0.013246792}
+      rotation: {x: -0.44703382, y: -0.11980518, z: -0.045581155, w: -0.88528514}
+      scale: {x: 0.9999995, y: 1.0000007, z: 1.000001}
+    - name: right_tiny3end
+      parentName: right_tiny3
+      position: {x: 0.03232989, y: -0.0059340433, z: 0.00044847353}
+      rotation: {x: 0.08826389, y: 0.124982715, z: 0.41298202, w: -0.8977943}
+      scale: {x: 1.0000005, y: 1.0000015, z: 1.0000004}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
